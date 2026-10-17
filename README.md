@@ -1,19 +1,17 @@
-# Metodología de la Investigación — Artefactos universitarios
+# Metodología de la Investigación — Universidad
+
+Coordinación académica: L.I. Luis Arturo López Vergara.
 
 ## Estructura
+- `index.html`: portal de unidades.
+- `unidad_I/index.html`: fundamentos y primera ficha.
+- `unidad_I/recursos.json`: enlaces audiovisuales de Unidad I.
+- `unidad_II/index.html`: planteamiento, delimitación, preguntas, objetivos, justificación, taller, ejemplos profesionales y evaluación.
+- `unidad_II/recursos.json`: enlaces audiovisuales configurables de Unidad II.
+- `notebooklm/`: fuentes y prompts para recursos de ambas unidades.
 
-- `index.html`: portal principal.
-- `unidad_I/index.html`: artefacto interactivo completo.
-- `unidad_I/recursos.json`: enlaces configurables a video e infografía.
+## Publicación
+Sube la estructura de directorios a GitHub Pages sin modificar las rutas. Para incorporar recursos de NotebookLM edita las URL de `recursos.json` y vuelve a publicar. Video de YouTube o Drive puede tener vista previa; imágenes directas PNG/JPG/WebP/SVG pueden verse dentro del artefacto. Los enlaces de Drive de imágenes suelen abrirse aparte.
 
-## Publicación en GitHub Pages
-
-Sube estos archivos conservando sus rutas, activa GitHub Pages desde la rama principal y abre la URL del repositorio. No requiere frameworks, compilación ni servidor.
-
-## Configuración de recursos
-
-Edita `unidad_I/recursos.json` para incorporar las URLs públicas del video y la infografía. Se admiten videos de YouTube y enlaces de Drive con vista previa embebida cuando sus permisos lo permiten. Para infografía gráfica se admiten URLs públicas directas PNG/JPG/WebP/SVG. Un recurso alojado en Drive puede abrirse en nueva pestaña, pero no necesariamente mostrarse como imagen integrada. Cambios realizados solo en la computadora del docente no modifican la versión pública hasta subir y publicar el JSON actualizado.
-
-## Consideraciones
-
-La ficha se guarda en `localStorage` del navegador mediante botón; no hay sincronización entre dispositivos, servidor ni registro institucional de notas. El cuestionario es formativo. Se recomienda publicar mediante HTTPS. Para pruebas locales, abrir `index.html` directamente permite estudiar; puede ser necesario servir archivos con un servidor local para cargar `recursos.json` por restricciones `file://`.
+## Privacidad y evaluación
+Guardado únicamente en `localStorage` de cada navegador; no se sincroniza ni constituye registro institucional de calificaciones. Exportar TXT permite respaldar y entregar los avances. Evaluaciones de autocorrección son formativas.

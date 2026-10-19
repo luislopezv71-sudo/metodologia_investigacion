@@ -29,3 +29,11 @@ Guardado únicamente en `localStorage` de cada navegador; no se sincroniza ni co
 - Guardado local `metinv_u5_` y exportación TXT.
 - Matriz de protocolo de selección, criterios y ética; diez preguntas con retroalimentación.
 - La carpeta `notebooklm/` contiene fuente académica y prompts para la Unidad V.
+
+## Unidad VI: técnicas e instrumentos de recolección
+
+- Ruta: `unidad_VI/index.html`
+- Configuración de video e infografía: `unidad_VI/recursos.json`. Ambos recursos opcionales se pueden publicar mediante URL de Google Drive con permiso de lector.
+- Taller del anteproyecto con 15 apartados, almacenamiento local independiente y exportación TXT.
+- Diez reactivos de autoevaluación.
+- Documentos fuente y prompts disponibles en `notebooklm/`.
